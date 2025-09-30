@@ -26,7 +26,7 @@ Ez a folyamatosan változó terület új frontvonalat is kijelöl: az AI-modelle
 
 **A jegyzetet készítette:**
 
-    Hajdu Gergely, [egyprogramozo.hu](http://egyprogramozo.hu/), [github.com/egyprogramozo](https://github.com/egyprogramozo)
+    Hajdu Gergely, [https://egyprogramozo.github.io](https://egyprogramozo.github.io/), [https://github.com/egyprogramozo](https://github.com/egyprogramozo)
 
 ## Video 1: AI biztonsági áttekintés és jogszabályok
 
