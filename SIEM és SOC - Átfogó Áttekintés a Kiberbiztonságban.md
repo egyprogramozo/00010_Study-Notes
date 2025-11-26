@@ -10,7 +10,7 @@
 
 A modern **kiberbiztonsági környezetben** a cégek és szervezetek adatvédelme érdekében különféle módszerek és eszközök állnak rendelkezésre. Egyre gyakoribbak a kibertámadások és az adatvédelmi incidensek: 2023-ban a globális adatszivárgások átlagos költsége körülbelül 4,45 millió dollár volt az IBM Cost of a Data Breach 2023 jelentése szerint. Ugyanakkor a szakemberek hiánya miatt **automatikus és félautomatikus megoldásokra** (mint a SIEM, EDR, SOAR), valamint egy **központosított biztonsági műveleti központra** (SOC) van szükség a valós idejű észleléshez és válaszadáshoz.
 
-Az alábbiakban részletesen bemutatjuk a **SIEM** (Security Information and Event Management) technológiáját és a **SOC** (Security Operations Center) működését, azok lépéseit, feladatait és
+Az alábbiakban részletesen bemutatom a **SIEM** (Security Information and Event Management) technológiáját és a **SOC** (Security Operations Center) működését, azok lépéseit, feladatait és
 kölcsönhatását.
 
 ## Mi az a SIEM?
