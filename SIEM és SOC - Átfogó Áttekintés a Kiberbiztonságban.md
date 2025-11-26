@@ -65,7 +65,7 @@ A SIEM erőteljes eszköz az átfogó láthatóság biztosítására: például 
 
 ## A SIEM működése és legfontosabb lépései
 
-A SIEM konkrét működését a gyakorlatban a következő lépések szemléltetik – ezeket a folyamatokat a bevezetőben már áttekintettük, de itt részletesebben is ismertetjük:
+A SIEM konkrét működését a gyakorlatban a következő lépések szemléltetik – ezeket a folyamatokat a bevezetőben már áttekintettük, de itt részletesebben is ismertetem:
 
 **1. Adatgyűjtés (Logging & Data Collection):**
 
@@ -73,7 +73,7 @@ A SIEM begyűjti az eseményeket minden forrásból. Ide tartoznak a rendszer- �
 
 **2. Normalizáció és összegzés:**
 
-A SIEM rendszerek átalakítják az összevont naplókat egy egységes formátumba. Ezzel a különböző források adatai összehasonlíthatók lesznek. Például a beépített normálformátum segít abban, hogy a különböző gyártótól származó tűzfal- vagy szervernaplók esetében is azonos jellegű információ legyen kiolvasható.
+A SIEM rendszerek átalakítják az összevont naplókat egy egységes formátumba. Ezzel a különböző források adatai összehasonlíthatók lesznek. Például a beépített normálformátum segít abban, hogy a különböző gyártóktól származó tűzfal- vagy szervernaplók esetében is azonos jellegű információ legyen kiolvasható.
 
 **3. Korreláció és anomália-észlelés:**
 
@@ -191,7 +191,7 @@ A kiberbiztonsági szakterületen számos műszaki kifejezést angolul használu
 
 - **Behatolásészlelő rendszer (IDS)** – *Intrusion Detection System*
   
-  Az IDS passzívan figyeli a hálózati forgalmat vagy rendszereket, és riaszt, ha ismert támadási mintázatot vagy gyanús viselkedést talál. Nem minden IDS avatkozik be automatikusan (az IPS-zel ellentétben); gyakran jelzésrendszerként szolgál a SOC/SIEM számára. Jó IDS-sel gyorsan felfedezhetők ismert támadási jelek.
+  Az IDS passzívan figyeli a hálózati forgalmat vagy rendszereket, és riaszt, ha ismert támadási mintázatot vagy gyanús viselkedést talál. Nem minden IDS avatkozik be automatikusan (az IPS-sel ellentétben); gyakran jelzésrendszerként szolgál a SOC/SIEM számára. Jó IDS-sel gyorsan felfedezhetők ismert támadási jelek.
 
 - **Behatolásmegelőző rendszer (IPS)** – *Intrusion Prevention System*
   
@@ -215,7 +215,7 @@ A kiberbiztonsági szakterületen számos műszaki kifejezést angolul használu
 
 - **Fenyegetésintelligencia** – *Threat Intelligence*
   
-  A fenyegetésintelligencia strukturált információ (pl. rossz IP-címek, rosszindulatú domain-ek, TTP-k — tactics, techniques, procedures) a támadókról és módszereikről. Ezeket az adatokat be lehet etetni a SIEM/IPS/EDR rendszerekbe, hogy gyorsabban és pontosabban azonosítsuk a fenyegetéseket. Két fajtája: stratégiai (trendek) és műveleti/technikai (konkrét IoC-k — Indicators of Compromise).
+  A fenyegetésintelligencia strukturált információ (pl. rossz IP-címek, rosszindulatú domain-ek, TTP-k — tactics, techniques, procedures) a támadókról és módszereikről. Ezeket az adatokat be lehet tápláni a SIEM/IPS/EDR rendszerekbe, hogy gyorsabban és pontosabban azonosítsuk a fenyegetéseket. Két fajtája: stratégiai (trendek) és műveleti/technikai (konkrét IoC-k — Indicators of Compromise).
 
 - **MITRE ATT&CK** – *MITRE Adversarial Tactics, Techniques, and Common Knowledge* (nyílt fenyegetéselemzési keretrendszer)
   
