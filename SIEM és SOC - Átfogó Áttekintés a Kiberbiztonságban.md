@@ -179,7 +179,7 @@ A triázs lényege: **szűrés és priorizálás**, hogy a SOC ne vesszen el a t
 
 ## Fontos kifejezések (magyar–angol)
 
-A kiberbiztonsági szakterületen számos műszaki kifejezést angolul használunk. Az alábbi listában néhány gyakran használt fogalmat és rövidítést közlünk magyarul, majd angol megfelelőjét:
+A kiberbiztonsági szakterületen számos műszaki kifejezést angolul használunk. Az alábbi listában néhány gyakran használt fogalmat és rövidítést listázok magyarul, majd angol megfelelőjét:
 
 - **Biztonsági információ- és eseménykezelés (SIEM)** – *Security Information and Event Management*
   
