@@ -207,7 +207,7 @@ Elérhetővé vált az **LLM alkalmazásokra vonatkozó Top 10-es lista**, de ez
    
    Példa: Valaki szándékosan hibás orvosi információkat tesz közzé, amelyek bekerülnek a tréningadatba, így a modell téves kezelési javaslatokat ad.
 
-4. **Biztonságtalan kimenetfeldolgozás** (Insecure Output Handling)
+4. **Nem biztonságos kimenetkezelés** (Insecure Output Handling)
    
    A modell kimenetét a rendszer nem ellenőrzi és nem kezeli biztonságosan, ami parancsinjekcióhoz, félrevezetéshez vagy más támadásokhoz vezethet.
    
@@ -398,7 +398,7 @@ Egy orchesztrációs könyvtár olyan szoftverkomponens, amely automatizálja é
 
 - Hibatűrés és újrapróbálkozás
   
-  Ha egy lépés meghiúsul, szabályok szerint újrapróbálkozás vagy alternatív ág következhet.
+  Ha egy lépés meghiúsul, a szabályok szerint újrapróbálkozás vagy alternatív ág következhet.
 
 - Ütemezés:
   
