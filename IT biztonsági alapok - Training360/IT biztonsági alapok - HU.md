@@ -100,7 +100,7 @@ Az, hogy a szolgáltatók az IoT-eszközök és az M2M kommunikáció révén ad
 
 3. **Adatszivárgás és hackertámadás**
    
-   Minél több adatot gyűjt egy szervezet, annál nagyobb a kockázata annak, hogy egy kibertámadás során ezek kiszivárognak.
+   Általában minél több és minél értékesebb (érzékenyebb) adatot kezel egy szervezet, annál vonzóbb célpont lehet, és egy esetleges incidens hatása is nagyobb.
    
    Példa: Egy okosotthon-szolgáltató adatbázisát feltörik, és megszerzik az érintett lakcímét, illetve a biztonsági kamera felvételeit.
 
@@ -254,7 +254,7 @@ Hamis e-mailek gyakran megtévesztő címeket használnak, például `www.bankom
 
 A titkosítás olyan folyamat, amely során az adatok átalakításra kerülnek egy olyan formába, hogy azokat csak az arra jogosult fél tudja visszafejteni és elolvasni. Az internetes adatforgalomban ez különösen fontos, mert az adatok (például jelszavak, banki információk, személyes üzenetek) gyakran nyilvános hálózatokon haladnak át, ahol titkosítás nélkül lehallgathatók lennének. A titkosítás biztosítja, hogy még ha az adatokat el is fogják, azok a megfelelő kulcs nélkül értelmezhetetlenek maradjanak. Emiatt használatos például a weboldalaknál a HTTPS, amely a böngésző és a szerver közötti kommunikációt védi.
 
-A titkosításnak két fő típusa van, a különbség az alkalmazott kulcsokban rejlik:
+A titkosításnak két fő típusa van, a különbség pedig az alkalmazott kulcsokban rejlik:
 
 - **Szimmetrikus titkosítás:** ugyanazt a kulcsot használják a titkosításhoz és a visszafejtéshez. Gyors és hatékony, ugyanakkor kockázatot jelenthet, mert a kulcsot biztonságosan kell megosztani a felek között.
 - **Aszimmetrikus titkosítás:** két kulcsot használ: egy nyilvános kulcsot a titkosításhoz, és egy privát kulcsot a visszafejtéshez. Biztonságosabb, mert a privát kulcsot nem kell megosztani, viszont általában lassabb és erőforrás-igényesebb.
@@ -337,13 +337,13 @@ Az alábbiakban a teljesség igénye nélkül néhány tipikus kockázat kerül 
    
    Hamis e-mailek vagy weboldalak hivatalosnak tűnnek, és érzékeny adatokat próbálnak megszerezni.  
    
-   Példa: Banknak látszó e-mail sürgős jelszófrissítést kér; a hivatkozás egy hamis oldalra vezet, ahol a megadott adatokkal a csaló hozzáférhet a számlához.
+   Példa: Egy bank nevében érkező e-mail sürgős jelszófrissítést kér; a hivatkozás egy hamis oldalra vezet, ahol a megadott adatokkal a csaló hozzáférhet a számlához.
 
 2. **Kártékony programok (vírusok, malware)**  
    
    Olyan szoftverek, amelyek észrevétlenül települhetnek, majd adatot lophatnak vagy kárt okozhatnak.  
    
-   Példa: „Ingyenes filmlejátszóként” hirdetett program telepítése után a kártevő jelszavakat szerez meg.
+   Példa: „Ingyenes filmlejátszóként” hirdetett program telepítése után a vele érkező kártevő jelszavakat szerez meg.
 
 3. **Megtévesztő tartalom és álhírek**  
    
@@ -387,7 +387,7 @@ Az alábbiakban a teljesség igénye nélkül néhány tipikus kockázat kerül 
    
    Példa: Ingyenes játékalkalmazás hozzáfér a helyadatokhoz és a névjegyekhez, majd később célzott reklámok jelennek meg.
 
-10. **Social engineering (emberi manipuláció)**  
+10. **Social engineering (társadalmi manipuláció)**  
     
     Nem technikai támadás, hanem pszichológiai módszerekkel történő befolyásolás.  
     
@@ -414,7 +414,7 @@ Az alábbiakban a teljesség igénye nélkül néhány tipikus kockázat kerül 
 - Nyilvános Wi-Fi-n pénzügyi műveletek kerülése; szükség esetén VPN használata.
 - Személyes adatok tudatos megosztása; a közösségi médiában közzétett információk következményeinek mérlegelése.
 - Forrásellenőrzés az információk tényként kezelése vagy megosztása előtt.
-- A „túl szép, hogy igaz legyen” ajánlatok kezelése fokozott gyanakvással.
+- A „túl szép, hogy igaz legyen” ajánlatok fokozott gyanakvással kezelése.
 - Manipulációs jelek felismerése; sürgetés vagy nyomásgyakorlás esetén megállás és átgondolás.
 
 ## 6. A távmunkáról röviden
@@ -467,7 +467,7 @@ Az integritás az adatok pontosságát és sértetlenségét jelenti: az inform�
 
 ### Elérhetőség (Availability)
 
-Az elérhetőség azt jelenti, hogy az információ és a rendszerek a jogosult felhasználók számára akkor is elérhetők, amikor szükség van rájuk.
+Az elérhetőség azt jelenti, hogy az információ és a rendszerek a jogosult felhasználók számára elérhetők, amikor szükség van rájuk.
 
 **Miért fontos?** Ha egy szolgáltatás leáll (például banki rendszer vagy egészségügyi adatbázis), az komoly fennakadást okozhat.  
 
@@ -618,7 +618,7 @@ A legtöbb modern szolgáltató beépített spamszűrővel rendelkezik, amely au
 
 ### Összefoglalás
 
-Az e-mail biztonság nemcsak technikai védelemről szól, hanem tudatos felhasználói magatartásról is. A kéretlen levelek, hamis hivatkozások és fertőzött csatolmányok komoly kockázatot jelentenek, ezért a feladó és az URL ellenőrzése, a megbízható szolgáltatók használata, valamint a magán- és céges levelezés elkülönítése alapvető lépés.
+Az e-mail biztonság nemcsak technikai védelemről szól, hanem tudatos felhasználói magatartásról is. A kéretlen levelek, hamis hivatkozások és fertőzött csatolmányok komoly kockázatot jelentenek, ezért a feladó és az URL ellenőrzése, a megbízható szolgáltatók használata, valamint a magán- és céges levelezés elkülönítése alapvető gyakorlat.
 
 ## 11. Adathalászat (phishing)
 
@@ -725,7 +725,7 @@ A zsarolóvírusok többféleképpen juthatnak be a rendszerbe: adathalász e-ma
 
 A felhasználói fájlokat titkosítja erős algoritmusokkal, így dokumentumok, képek, adatbázisok elérhetetlenné válnak.
 
-**Példa:** WannaCry (2017) – a Windows SMB protokoll sebezhetőségének kihasználásával világszerte sok rendszert fertőzött, jelentős leállásokat és károkat okozva.
+**Példa:** WannaCry (2017) – a Windows SMB protokoll sebezhetőségének kihasználásával világszerte sok rendszert fertőzött meg, jelentős leállásokat és károkat okozva.
 
 **Cél:** fizetés kikényszerítése a visszaállításhoz szükséges kulcsért.
 
