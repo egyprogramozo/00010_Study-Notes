@@ -40,7 +40,7 @@ Az ipari IoT (IIoT) a gyártásban és az ellátási lánc kezelésében növeli
 
 #### IoT hátrányai és kockázatai
 
-Az IoT rendkívül sokszínűvé és kiterjedtté tette a digitális támadási felületet. A CISA figyelmeztet, hogy a gyenge biztonsági beállítások, a hiányos frissítések és a botnet hálózatok (pl. DDoS-támadások) komoly veszélyt jelentenek.
+Az IoT rendkívül sokszínűvé és kiterjedtté tette a digitális támadási felületet. Az amerikai CISA (Cybersecurity and Infrastructure Security Agency) figyelmeztet, hogy a gyenge biztonsági beállítások, a hiányos frissítések és a botnet hálózatok (pl. DDoS-támadások) komoly veszélyt jelentenek.
 
 Az interoperabilitás hiánya – amikor különböző protokollok és platformok nem kommunikálnak egymással – gátolja az IoT rendszerek összehangolt működését.
 
