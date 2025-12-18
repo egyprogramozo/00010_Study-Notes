@@ -483,6 +483,14 @@ Az elérhetőség azt jelenti, hogy az információ és a rendszerek a jogosult 
 
 E három elv együtt garantálja, hogy az információ védett, pontos és hozzáférhető legyen – ez minden digitális szolgáltatás alapja.
 
+### Az IPsec és hasonló biztonsági megoldások jelentősége
+
+Az IPsec (IP Security) azért vált szükségessé, mert az **internet alapjai és az IP-protokoll** eredetileg egy jóval kisebb, bizalmi jellegű környezetre készültek: a cél az volt, hogy a csomagok **el tudjanak jutni A-ból B-be**, nem pedig az, hogy közben titkosítva legyenek, vagy hogy a küldő személye kriptográfiailag bizonyított legyen. Ahogy a hálózatok összenőttek, a nyilvános infrastruktúrán (interneten) kezdett egyre több érzékeny adat közlekedni, megjelentek a lehallgatás, a forgalommanipuláció és a hamis végpontok kockázatai — ezért kellett egy olyan, **szabványos, IP-szintű védelmi réteg**, ami nem egyetlen alkalmazásra (pl. csak webre), hanem **általánosan** képes biztonságot adni a kommunikációnak.
+
+Ennek a célnak a megvalósítására született meg az IPsec, amely a védelem egy részét nem az alkalmazásokra bízza, hanem már IP-szinten biztosítja. Az **IPsec** egy olyan szabványcsalád, amely az **IP-szintű (L3, hálózati réteg) kommunikációt** védi: képes a hálózaton áthaladó adatforgalmat **titkosítani**, és biztosítani, hogy a csomagok **ne módosulhassanak észrevétlenül**, illetve hogy a felek **hitelesen azonosítsák egymást**. A gyakorlatban az IPsecet leggyakrabban **VPN-kapcsolatokhoz** használják (például két telephely között “site-to-site”, vagy távoli felhasználók biztonságos becsatlakozásához), így a nyilvános interneten átmenő adatforgalom is úgy közlekedhet, mintha egy védett, privát összeköttetésen menne.
+
+**A CIA-triádhoz kötve:** az IPsec a **bizalmasságot** a titkosítással (pl. a forgalom “olvashatatlanná” tételével), az **integritást** és a **hitelességet** pedig azzal támogatja, hogy a csomagokhoz ellenőrzést és azonosítást társít, így a manipuláció és a “hamis” végpontok kockázata csökken. Az **elérhetőség** oldalán viszont fontos megérteni, hogy a VPN-eknél a helytelen beállítás (kulcs-/policy-eltérés, NAT-probléma, MTU) vagy a blokkolt szükséges forgalom (pl. IKE/NAT-T) azt eredményezheti, hogy a védett kapcsolat **nem épül fel**, és ettől a szolgáltatás “biztonságosan ugyan”, de **nem lesz elérhető** – ezért az IPsec jó példa arra is, hogy a biztonság mindig üzemeltetési és megbízhatósági kérdés is.
+
 ## 8. A legkisebb jogosultság elve
 
 A legkisebb jogosultság elve (**Principle of Least Privilege – PoLP**) azt jelenti, hogy minden felhasználó, alkalmazás vagy rendszerkomponens csak azokat a jogosultságokat kapja meg, amelyek feltétlenül szükségesek a feladatai ellátásához, és semmi többet. Ez az informatikai biztonság egyik alapelve, amely minimalizálja a kockázatot, ha egy fiók vagy rendszer kompromittálódik.
