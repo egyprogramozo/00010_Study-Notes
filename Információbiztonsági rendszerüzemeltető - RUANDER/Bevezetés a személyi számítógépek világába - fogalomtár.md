@@ -59,7 +59,7 @@ A Ruander Oktatóközpont Információbiztonsági rendszerüzemeltető képzés�
 
 **Kimeneti eszköz** – Olyan periféria, amelyen keresztül a számítógép információt ad ki (monitor, nyomtató, hangszóró).
 
-**Felbontás (resolution)** – A kijelző vízszintes és függőleges pixeleinek száma, pl. 1920×1080, 2560×1440, 3840×2160 (4K).
+**Felbontás (resolution)** – A kijelző vízszintes és függőleges pixeleinek száma, pl. 1920×1080 (Full HD), 2560×1440 (QHD), 3840×2160 (UHD).
 
 **Frissítési frekvencia (refresh rate)** – Másodpercenkénti képkockák száma Hz-ben; játékra ma gyakori a 120–240 Hz.
 
