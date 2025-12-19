@@ -114,7 +114,7 @@ Redundancia nincs, ezért csak akkor jó döntés, ha a fölérendelt adatvédel
 | RAID 6  | 4             | 2                   | (N−2)           | nagy tömb biztonság | írásban még drágább                         |
 | RAID 10 | 4             | 1–N/2**             | ~50%            | VM/DB/log I/O       | kapacitás “drága”                           |
 
-*N = a lemezek száma a tömbben.
+*N = a lemezek száma; a kapacitás számítása a legkisebb lemez méretével értendő.
 
 **RAID10-ben a túlélhető lemezhibák száma attól függ, hogy a kiesések különböző tükörpárokat érintenek-e; egy tükörpár mindkét lemezének kiesése adatvesztést okoz (legrosszabb esetben akkor, ha a következő kiesés ugyanannak a tükörpárnak a másik lemezét érinti).
 
