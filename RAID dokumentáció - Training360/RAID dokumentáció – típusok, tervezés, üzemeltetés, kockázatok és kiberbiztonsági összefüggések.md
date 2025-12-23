@@ -94,7 +94,7 @@ A RAID 10 hibatűrése erősen függ a kiesések eloszlásától. Elméletileg a
 
 Ezek több RAID5/RAID6 csoport összecsíkozásai.
 
-A cél nagy rendszereknél a teljesítmény és a rebuild-kockázat ésszerűbb elosztása. Cserébe a tervezés bonyolultabb: nem mindegy, hány lemez van egy al-csoportban, és milyen kiesési mintákat akarsz túlélni.
+A cél nagy rendszereknél a teljesítmény és a rebuild-kockázat ésszerűbb elosztása. Cserébe a tervezés bonyolultabb: nem mindegy, hány lemez van egy alcsoportban, és milyen kiesési mintákat akarsz túlélni.
 
 Tipikusan vállalati tárolóknál vagy nagy NAS rendszereknél jön elő.
 
@@ -112,7 +112,7 @@ Redundancia nincs, ezért csak akkor jó döntés, ha a fölérendelt adatvédel
 | RAID 1  | 2             | 1                   | ~50%            | egyszerű, stabil    | “mindent tükröz” (hibát is)                 |
 | RAID 5  | 3             | 1                   | (N−1)           | jó kapacitás        | paritás-írás büntetés, rebuild kockázat     |
 | RAID 6  | 4             | 2                   | (N−2)           | nagy tömb biztonság | írásban még drágább                         |
-| RAID 10 | 4             | 1–N/2**             | ~50%            | VM/DB/log I/O       | kapacitás “drága”                           |
+| RAID 10 | 4             | 1–(N/2)**           | ~50%            | VM/DB/log I/O       | kapacitás “drága”                           |
 
 *N = a lemezek száma; a kapacitás számítása a legkisebb lemez méretével értendő.
 
@@ -330,7 +330,7 @@ A redundancia mellett külön dimenzió az **adat integritása**: a csendes adat
 
 **Monitoring / Alerting** – Állapotfigyelés és riasztás (degraded, rebuild, SMART, hőmérséklet, hibaszámlálók). SOC környezetben ez tipikus korai jelzőrendszer.
 
-**SLA / RTO / RPO** – SLA: szolgáltatási vállalás. RTO: mennyi idő alatt kell helyreállni. RPO: mennyi adatvesztés fér bele (mennyi a maximum “visszaugrás”). RAID főleg RTO-n segít, backup RPO-n.
+**SLA / RTO / RPO** – SLA: szolgáltatási vállalás. RTO: mennyi idő alatt kell helyreállni. RPO: mennyi adatvesztés fér bele (mennyi a maximum “visszaugrás”). RAID főleg RTO-n segít, backup RPO-n. (SLA = Service Level Agreement, RTO = Recovery Time Objective, RPO = Recovery Point Objective)
 
 **Disaster Recovery (DR) / Katasztrófa-helyreállítás** – Eljárások és infrastruktúra nagyobb eseményekre (tűz, lopás, totális storage-hiba, ransomware). RAID önmagában nem DR.
 
