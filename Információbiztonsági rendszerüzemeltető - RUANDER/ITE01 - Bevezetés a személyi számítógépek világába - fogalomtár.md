@@ -65,39 +65,39 @@ A Ruander Oktatóközpont Információbiztonsági rendszerüzemeltető képzés�
 
 **HDR (High Dynamic Range)** – Olyan megjelenítési mód, amely nagyobb fényerőt és dinamikusabb színeket biztosít.
 
-**Igényfelmérés** – annak kiderítése, hogy a felhasználó pontosan mire használja a gépet (iroda, játék, videóvágás, 3D, fejlesztés stb.).
+**Igényfelmérés** – Annak kiderítése, hogy a felhasználó pontosan mire használja a gépet (iroda, játék, videóvágás, 3D, fejlesztés stb.).
 
-**Form factor (ATX, mATX, Mini-ITX)** – a ház, alaplap és tápegység méretét és rögzítési pontjait meghatározó szabvány.
+**Form factor (ATX, mATX, Mini-ITX)** – A ház, alaplap és tápegység méretét és rögzítési pontjait meghatározó szabvány.
 
-**Tápegység headroom** – a komponensek összes fogyasztása fölötti biztonsági tartalék, javasolt 20–30%.
+**Tápegység headroom** – A komponensek összes fogyasztása fölötti biztonsági tartalék, javasolt 20–30%.
 
-**Chipset / platform (pl. Intel, AMD)** – meghatározza a támogatott CPU-kat, RAM-ot, PCIe-sávokat, I/O-portokat.
+**Chipset / platform (pl. Intel, AMD)** – Meghatározza a támogatott CPU-kat, RAM-ot, PCIe-sávokat, I/O-portokat.
 
-**64 bites CPU** – modern processzor, amely nagy mennyiségű RAM-ot képes címezni és több adatot dolgoz fel ciklusonként, mint a régi 32 bitesek.
+**64 bites CPU** – Modern processzor, amely nagy mennyiségű RAM-ot képes címezni és több adatot dolgoz fel ciklusonként, mint a régi 32 bitesek.
 
-**DDR4 / DDR5 RAM** – jelenlegi memória-szabványok; a DDR5 nagyobb sávszélességet és kapacitást ad, de drágább és nagyobb késleltetésű.
+**DDR4 / DDR5 RAM** – Jelenlegi memória-szabványok; a DDR5 nagyobb sávszélességet és kapacitást ad, de drágább és nagyobb késleltetésű.
 
 **SATA SSD vs NVMe SSD** – SATA: akár ~550–600 MB/s, NVMe PCIe-n akár 7 000 MB/s, lényegesen gyorsabb rendszerindítást és programbetöltést ad.
 
-**RAID** – több lemez összefogása egy logikai egységgé a sebesség és/vagy hibatűrés növelésére.
+**RAID** – Több lemez összefogása egy logikai egységgé a sebesség és/vagy hibatűrés növelésére.
 
 **Külső háttértár** – USB-s vagy hálózati (NAS) eszköz, amely hordozható vagy több gépről is elérhető.
 
-**Munkaállomás** – speciális, nagy teljesítményű PC, professzionális szoftverekhez (CAD, 3D, vágás, mérnöki és tudományos munkák).
+**Munkaállomás** – Speciális, nagy teljesítményű PC, professzionális szoftverekhez (CAD, 3D, vágás, mérnöki és tudományos munkák).
 
-**CAD/CAM munkaállomás** – tervezéshez és gyártástervezéshez használt gép, erős CPU-val, professzionális GPU-val és sok RAM-mal.
+**CAD/CAM munkaállomás** – Tervezéshez és gyártástervezéshez használt gép, erős CPU-val, professzionális GPU-val és sok RAM-mal.
 
-**Audió–videó szerkesztő munkaállomás** – nagy felbontású anyagok felvételére, vágására, effektezésére optimalizált PC, sok maggal, sok RAM-mal, gyors SSD-vel.
+**Audió–videó szerkesztő munkaállomás** – Nagy felbontású anyagok felvételére, vágására, effektezésére optimalizált PC, sok maggal, sok RAM-mal, gyors SSD-vel.
 
-**Virtualizációs munkaállomás / szerver** – több virtuális gépet futtató host rendszer, sok maggal, nagy memóriával és NVMe háttértárral, Hyper-V, VMware, Proxmox stb. futtatására.
+**Virtualizációs munkaállomás / szerver** – Több virtuális gépet futtató host rendszer, sok maggal, nagy memóriával és NVMe háttértárral, Hyper-V, VMware, Proxmox stb. futtatására.
 
-**Vékony kliens (thin client)** – egyszerű, kis fogyasztású eszköz, amely egy távoli, erős szerverre csatlakozik (VDI, RDP), a nagy számítást a szerver végzi.
+**Vékony kliens (thin client)** – Egyszerű, kis fogyasztású eszköz, amely egy távoli, erős szerverre csatlakozik (VDI, RDP), a nagy számítást a szerver végzi.
 
-**Játék PC (gaming rig)** – játékra optimalizált erős GPU-val, sok RAM-mal és gyors SSD-vel, gyakran extrém hűtéssel és gaming perifériákkal.
+**Játék PC (gaming rig)** – Játékra optimalizált erős GPU-val, sok RAM-mal és gyors SSD-vel, gyakran extrém hűtéssel és gaming perifériákkal.
 
-**HTPC (Home Theater PC)** – nappaliba szánt, csendes, kis méretű PC, 4K videó és térhatású hang lejátszására, gyakran médialejátszó szoftverrel (Kodi, Plex).
+**HTPC (Home Theater PC)** – Nappaliba szánt, csendes, kis méretű PC, 4K videó és térhatású hang lejátszására, gyakran médialejátszó szoftverrel (Kodi, Plex).
 
-**Házi szerver / NAS** – otthoni adattárolásra, médiastreamelésre és biztonsági mentésre szolgáló, több lemezes, redundáns tárolót és gigabites/multi-gigabites hálózatot használó gép.
+**Házi szerver / NAS** – Otthoni adattárolásra, médiastreamelésre és biztonsági mentésre szolgáló, több lemezes, redundáns tárolót és gigabites/multi-gigabites hálózatot használó gép.
 
 ---
 

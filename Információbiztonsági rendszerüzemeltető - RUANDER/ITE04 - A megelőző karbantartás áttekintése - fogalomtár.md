@@ -13,21 +13,21 @@ A Ruander Oktatóközpont Információbiztonsági rendszerüzemeltető képzés�
 
 ## Fogalmak
 
-**Megelőző karbantartás** – rendszeres ellenőrzés, tisztítás és frissítés a hibák megelőzésére.
+**Megelőző karbantartás** – Rendszeres ellenőrzés, tisztítás és frissítés a hibák megelőzésére.
 
-**Hibaelhárítási folyamat** – lépésről lépésre végigvitt logikus eljárás a hibák azonosítására és kijavítására.
+**Hibaelhárítási folyamat** – Lépésről lépésre végigvitt logikus eljárás a hibák azonosítására és kijavítására.
 
-**Biztonsági mentés (backup)** – adatok másolatának készítése másik eszközre vagy felhőbe, hiba vagy adatvesztés esetére.
+**Biztonsági mentés (backup)** – Adatok másolatának készítése másik eszközre vagy felhőbe, hiba vagy adatvesztés esetére.
 
-**Környezeti feltételek** – a hőmérséklet, páratartalom, por és légáramlás hatása a számítógép megbízhatóságára.
+**Környezeti feltételek** – A hőmérséklet, páratartalom, por és légáramlás hatása a számítógép megbízhatóságára.
 
 **Eseménynapló (Event Viewer)** – Windows segédprogram, amely rendszer-, alkalmazás- és biztonsági hibákat naplóz.
 
-**Eszközkezelő (Device Manager)** – a csatlakoztatott hardverek listája, hibajelekkel (ikonokkal) a problémás eszközökön.
+**Eszközkezelő (Device Manager)** – A csatlakoztatott hardverek listája, hibajelekkel (ikonokkal) a problémás eszközökön.
 
-**Diagnosztikai eszközök** – hardver- és szoftvertesztek, amelyeket a gyártók vagy az operációs rendszer biztosít hibakereséshez.
+**Diagnosztikai eszközök** – Hardver- és szoftvertesztek, amelyeket a gyártók vagy az operációs rendszer biztosít hibakereséshez.
 
-**Kézenfekvő okok** – alap, gyorsan ellenőrizhető hibaforrások (táp, kábel, kapcsoló, csatlakozó, „nem bedugva” típusú gondok).
+**Kézenfekvő okok** – Alap, gyorsan ellenőrizhető hibaforrások (táp, kábel, kapcsoló, csatlakozó, „nem bedugva” típusú gondok).
 
 ---
 

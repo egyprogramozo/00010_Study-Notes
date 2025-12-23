@@ -13,19 +13,19 @@ A Ruander Oktatóközpont Információbiztonsági rendszerüzemeltető képzés�
 
 ## Fogalmak
 
-**ESD (Electrostatic Discharge)** – elektrosztatikus kisülés; a rajtad felgyűlt töltés „átugrik” az alkatrészre → tönkreteheti az IC-ket.
+**ESD (Electrostatic Discharge)** – Elektrosztatikus kisülés; a rajtad felgyűlt töltés „átugrik” az alkatrészre → tönkreteheti az IC-ket.
 
-**EMI (Electromagnetic Interference)** – elektromágneses zavar, ami rontja/jelentősen torzíthatja a kábelekben, vezeték nélküli hálózatban haladó jelet.
+**EMI (Electromagnetic Interference)** – Elektromágneses zavar, ami rontja/jelentősen torzíthatja a kábelekben, vezeték nélküli hálózatban haladó jelet.
 
-**RFI (Radio Frequency Interference)** – rádiófrekvenciás zavar, pl. vezeték nélküli telefon, mikrohullámú sütő zavarja a WiFi-t.
+**RFI (Radio Frequency Interference)** – Rádiófrekvenciás zavar, pl. vezeték nélküli telefon, mikrohullámú sütő zavarja a WiFi-t.
 
-**MSDS (Material Safety Data Sheet)** – anyagbiztonsági adatlap, minden veszélyes vegyszerhez/jellemző anyaghoz kötelező adatlap (összetétel, veszélyek, kezelés, ártalmatlanítás).
+**MSDS (Material Safety Data Sheet)** – Anyagbiztonsági adatlap, minden veszélyes vegyszerhez/jellemző anyaghoz kötelező adatlap (összetétel, veszélyek, kezelés, ártalmatlanítás).
 
-**UPS (Uninterruptible Power Supply)** – szünetmentes tápegység, akkut tartalmaz, áramszünetnél is folytatja a tápellátást és egyenletes feszültséget ad.
+**UPS (Uninterruptible Power Supply)** – Szünetmentes tápegység, akkut tartalmaz, áramszünetnél is folytatja a tápellátást és egyenletes feszültséget ad.
 
-**SPS (Standby Power Supply)** – készenléti tápegység, csak átkapcsol áramszünetnél, kevésbé biztonságos, rövid átkapcsolási idő alatt a gép leállhat.
+**SPS (Standby Power Supply)** – Készenléti tápegység, csak átkapcsol áramszünetnél, kevésbé biztonságos, rövid átkapcsolási idő alatt a gép leállhat.
 
-**PASS** – tűzoltókészülék használatának angol mozaikszava: Pull–Aim–Squeeze–Sweep.
+**PASS** – Tűzoltókészülék használatának angol mozaikszava: Pull–Aim–Squeeze–Sweep.
 
 ---
 
