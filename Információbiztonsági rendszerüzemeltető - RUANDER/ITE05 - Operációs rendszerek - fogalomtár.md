@@ -33,13 +33,17 @@ A Ruander Oktatóközpont Információbiztonsági rendszerüzemeltető képzés�
 
 **Lemez, partíció, kötet** – A fizikai lemez logikai részekre (partíciókra) osztása; ezekből jönnek létre a kötetek, amelyeket a Windows meghajtóként (C:, D: stb.) lát.
 
-**MBR és GPT** – Kétféle partíciós séma. Az MBR régi, 4 elsődleges partícióval; a GPT modern, nagy lemezekhez, sok partícióval, UEFI-vel használatos.
+**MBR (Master Boot Record) és GPT (GUID Partition Table, ahol a GUID = Globally Unique Identifier)** – Kétféle partíciós séma. Az MBR régi, 4 elsődleges partícióval; a GPT modern, nagy lemezekhez, sok partícióval, UEFI-vel használatos.
 
 **Alap- és dinamikus lemez** – Alaplemez: klasszikus partíciók (ajánlott). Dinamikus lemez: logikai kötetek, átnyúló/RAID-szerű megoldások, de ma már inkább Storage Spaces és hardveres RAID használatos.
 
 **Formázás** – Fájlrendszer létrehozása egy partíción (pl. NTFS), hogy a fájlok tárolhatók legyenek. Lehet gyors vagy teljes.
 
 **NTFS, exFAT, ReFS** – A Windows fő fájlrendszerei: NTFS általános rendszerpartícióhoz, exFAT hordozható médiákhoz, ReFS speciális szerveres/archiv célokra.
+
+**POST (Power-On Self-Test) / Bekapcsoláskori önteszt** – Indításkor a BIOS/UEFI által lefuttatott alap hardverellenőrzés (pl. CPU, RAM, videó), amelynek célja, hogy a rendszer a bootolás előtt működőképes állapotba kerüljön.
+
+**UEFI (Unified Extensible Firmware Interface)** – A BIOS modern utódja: a gép firmware-e, amely indításkor inicializálja a hardvert, majd a boot manager és az EFI System Partition (ESP) segítségével elindítja az operációs rendszert, és tipikusan támogatja a GPT partíciós sémát és a Secure Boot funkciót.
 
 **UEFI/BIOS, boot-sorrend** – A gép firmware-e, amely indításkor lefuttatja a POST-ot, majd a megadott eszközsorrend szerint megkeresi a bootolható lemezt.
 
@@ -53,7 +57,7 @@ A Ruander Oktatóközpont Információbiztonsági rendszerüzemeltető képzés�
 
 **Lemezkezelő (Disk Management)** – Beépített Windows eszköz partíciók létrehozására, bővítésére, zsugorítására, betűjelek és RAID-kötegek kezelésére.
 
-**Jogosultságok, ACL, árnyékmásolat (shadow copy)** – A fájlokhoz való hozzáférést szabályozó listák és az automatikusan készült „korábbi verziók” mechanizmusa.
+**Jogosultságok, ACL (Access Control List), árnyékmásolat (shadow copy)** – A fájlokhoz való hozzáférést szabályozó listák és az automatikusan készült „korábbi verziók” mechanizmusa.
 
 **GUI (grafikus felhasználói felület)** – Ikonokból, ablakokból, menükből álló felület, ahol egérrel/billentyűzettel dolgozunk.
 
@@ -65,7 +69,7 @@ A Ruander Oktatóközpont Információbiztonsági rendszerüzemeltető képzés�
 
 **Fájlkezelő (File Explorer)** – A fájlok, mappák, meghajtók grafikus kezelője.
 
-**Vezérlőpult (Control Panel)** – Egy „régi” központi konfigurációs felület, sok beállítás még mindig innen érhető el.
+**Vezérlőpult (Control Panel)** – A Windows klasszikus központi beállítófelülete, és bár sok funkció átköltözött a Gépházba, több beállítás még ma is innen érhető el.
 
 **Beállítások (Settings app)** – Modern, érintőképernyő-barát konfigurációs felület Windows 10/11-ben.
 
@@ -87,7 +91,7 @@ A Ruander Oktatóközpont Információbiztonsági rendszerüzemeltető képzés�
 
 **Hypervisor (Virtual Machine Manager)** – Az a szoftverréteg, amely létrehozza, futtatja és menedzseli a virtuális gépeket, valamint elosztja köztük az erőforrásokat.
 
-**Megelőző karbantartási terv** – Előre megtervezett feladatok és ütemezések együttese, amely csökkenti a leállásokat és növeli a rendszer megbízhatóságát.
+**Megelőző karbantartási terv** – Előre megtervezett feladatok és ütemezések együttese, amely csökkenti a leállások kockázatát és növeli a rendszer megbízhatóságát.
 
 **Frissítés (update)** – Operációs rendszerhez, driverekhez vagy firmware-hez kiadott javítás, új funkció vagy biztonsági módosítás.
 

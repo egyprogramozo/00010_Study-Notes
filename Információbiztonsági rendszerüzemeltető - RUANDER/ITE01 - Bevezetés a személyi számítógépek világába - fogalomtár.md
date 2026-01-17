@@ -25,7 +25,7 @@ A Ruander Oktatóközpont Információbiztonsági rendszerüzemeltető képzés�
 
 **Tápcsatlakozók** – Speciális, kulcsolt csatlakozók (ATX 24 tűs, CPU EPS 4/8 tűs, PCIe 6/8 tűs, SATA), amelyek biztosítják a megfelelő feszültségű tápellátást.
 
-**Ohm törvénye** – Az elektromosság alapösszefüggése: U = I·R, a feszültség, áramerősség és ellenállás kapcsolatát írja le.
+**Ohm törvénye** – Az elektromosság alapösszefüggése: U = I·R, amely a feszültség, áramerősség és ellenállás kapcsolatát írja le, ahol U a feszültség (volt, V), I az áramerősség (amper, A), R pedig az ellenállás (ohm, Ω).
 
 **UPS (szünetmentes tápegység)** – Akkumulátoros eszköz, amely áramszünet esetén rövid ideig árammal látja el a számítógépet és védi az áramingadozásoktól.
 
