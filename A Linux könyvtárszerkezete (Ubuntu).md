@@ -1,4 +1,4 @@
-# Linux könyvtárszerkezete (Ubuntu)
+# A Linux könyvtárszerkezete (Ubuntu)
 
 **Források és felhasznált eszközök:**
 
