@@ -29,25 +29,19 @@ IaaS esetén a szolgáltató főként az alap infrastruktúrát biztosítja, de 
 ### SaaS
 
 A **SaaS (Software as a Service)** kész alkalmazást jelent: ilyen például a **Microsoft 365**, a Google Workspace, a Salesforce, a Jira vagy a Slack.
-
 Ebben az esetben a szolgáltató adja a teljes alkalmazást és annak üzemeltetését, a felhasználó pedig a beállításokért, a **jogosultságokért** és a benne tárolt **adatok** kezeléséért felel.
-
 A SaaS általában gyorsan bevezethető, viszont cserébe kisebb a testreszabhatóság, és különösen fontos a megfelelő **identitás- és hozzáféréskezelés (IAM)**, mert a hibás hozzáférések jellemzően az egyik leggyakoribb kockázati forrást jelentik.
 
 ### PaaS
 
-A **PaaS (Platform as a Service)** egy lépéssel lejjebb helyezkedik el: itt nem egy kész alkalmazásról van szó, hanem egy menedzselt **futtatókörnyezetről**. Tipikus példa lehet egy webalkalmazás-futtató szolgáltatás vagy egy **menedzselt adatbázis (DBaaS)**. 
-
+A **PaaS (Platform as a Service)** egy lépéssel lejjebb helyezkedik el: itt nem egy kész alkalmazásról van szó, hanem egy menedzselt **futtatókörnyezetről**. Tipikus példa lehet egy webalkalmazás-futtató szolgáltatás vagy egy **menedzselt adatbázis (DBaaS)**.
 Ilyenkor a szolgáltató sok terhet levesz az üzemeltető válláról (például az alap operációs rendszer és bizonyos komponensek frissítése, skálázási mechanizmusok), miközben a felhasználó a saját **kódjáért**, konfigurációjáért és adataiért felel.
-
 A PaaS gyakran ideális kompromisszum: gyors, kényelmes, viszont előfordulhat, hogy a szolgáltató által adott „keretek” korlátozzák a specializált igényeket, illetve később nehezebb lehet más platformra átállni.
 
 ### IaaS
 
 Az **IaaS (Infrastructure as a Service)** a legnagyobb kontrollt adja: a szolgáltató infrastruktúrát biztosít (virtuális gépeket, hálózatot, tárolót), de az operációs rendszer, a **patch-elés**, a **hardening**, sok biztonsági beállítás és az alkalmazás teljes üzemeltetése az ügyfélnél marad.
-
 Ez a modell közelebb áll a klasszikus rendszergazdai gondolkodáshoz, ugyanakkor több felelősséget és több hibalehetőséget is jelent.
-
 A modern felhővilágban gyakran külön névvel említik a **serverless** és **eseményvezérelt** szolgáltatásokat is (például **FaaS, Functions-as-a-Service**), ahol nem kell szerverekkel foglalkozni, csak a futtatandó logikát adják meg, a háttér-infrastruktúrát pedig teljesen a szolgáltató menedzseli.
 
 ### **Mini-összehasonlítás (gyors fejtágító)**
@@ -62,19 +56,13 @@ A modern felhővilágban gyakran külön névvel említik a **serverless** és *
 
 A másik fontos csoportosítás a **telepítési modellek** szerinti felosztás.
 
-### Public cloud
-
 A **public cloud** a legelterjedtebb: ilyen esetben a szolgáltató infrastruktúráján több ügyfél osztozik logikai elkülönítéssel.
-
-### Private cloud
 
 A **private cloud** ezzel szemben egy szervezet számára dedikált környezet, amely lehet saját adatközpontban vagy külső szolgáltatónál is, de a fő cél a **kontroll** és a **szabályozottság**, illetve sokszor a legacy rendszerekkel való kompatibilitás.
 
-### Hybrid cloud
-
 A **hybrid cloud** azt jelenti, hogy a szervezet egyszerre használ saját (**on-prem**) és public felhős rendszereket, és a kettő integráltan működik.
 
-### Multi-cloud
+# 
 
 A **multi-cloud** pedig több felhőszolgáltató egyidejű használatát jelenti; ennek oka lehet üzleti kockázatcsökkentés, eltérő szolgáltatáselőnyök kihasználása vagy például földrajzi, jogi megfontolások.
 

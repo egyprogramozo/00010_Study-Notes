@@ -244,7 +244,7 @@ Most nézzük a klasszikus üzemeltetési esetet:
 
 Ez jól mutatja, miért erős az OSI-s gondolkodás: az “alkalmazás nem megy” jellegű panasz mögött sokszor egy alacsonyabb réteg (itt L3) a gyökérok.
 
-### Záró gondolatok
+## Záró gondolatok
 
 Az OSI modell nem a valós hálózatok teljesen pontos leképezése, hanem egy hasznos gondolkodási keret. Abban segít, hogy a hibákat, protokollokat és biztonsági jelenségeket rétegenként tudjuk értelmezni. Üzemeltetésben és kiberbiztonságban ezért ma is nagyon hasznos: nem azért, mert minden tökéletesen belefér a 7 rétegbe, hanem mert segít gyorsabban megtalálni, hol keresd a problémát.
 
