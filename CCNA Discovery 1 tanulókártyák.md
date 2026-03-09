@@ -24,4 +24,4 @@ A gyűjtemény elsősorban tanulási és önellenőrzési segédanyag, amely a s
 
 - Knowt mappám (tanulókártyák): [CCNA Discovery 1 | Knowt](https://knowt.com/folder/df660ec4-1e12-4857-8b70-b0ec9eeb26dc)
 
-- A felhasznált PDF tananyag: https://vayadam.hu/files/c1.pdf
+- A felhasznált CCNA tananyag: https://vayadam.hu/files/c1.pdf
