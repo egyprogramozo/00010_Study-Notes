@@ -27,6 +27,7 @@ Végül fontos jellemző még a **mérhetőség**, mert a szolgáltató szinte m
 A felhőszolgáltatások típusait többféleképpen szokás csoportosítani. Az egyik legfontosabb felosztás az úgynevezett **szolgáltatási modellek** szerinti.
 
 A SaaS, PaaS és IaaS közti egyik legfontosabb különbség az, hogy meddig a szolgáltató felelőssége az üzemeltetés, és mettől a megrendelőé a kontroll.
+
 SaaS esetén a szolgáltató adja és üzemelteti a teljes alkalmazást, ezért a megrendelő oldalán jellemzően a felhasználók, jogosultságok, beállítások és adatok kezelése marad.
 
 PaaS esetén a szolgáltató már nem kész alkalmazást ad, hanem egy menedzselt platformot, így ő kezeli az infrastruktúrát, az alap operációs rendszert és a futtatókörnyezetet, míg a megrendelő a saját alkalmazásáért, konfigurációjáért és adataiért felel.
