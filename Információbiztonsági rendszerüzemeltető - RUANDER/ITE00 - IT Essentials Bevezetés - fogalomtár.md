@@ -1,4 +1,4 @@
-# IT Essentials Bevezetés - fogalomtár
+# ITE - IT Essentials Bevezetés - fogalomtár
 
 A Ruander Oktatóközpont Információbiztonsági rendszerüzemeltető képzésének bevezető részéből készült ez a fogalomtár, amit azért állítottam össze, hogy könnyebbé tegye a tanulást és az ismétlést.
 
