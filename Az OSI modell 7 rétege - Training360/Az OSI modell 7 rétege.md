@@ -1,4 +1,4 @@
-## Az OSI modell 7 rétege
+# Az OSI modell 7 rétege
 
 **Források és felhasznált eszközök:**
 
