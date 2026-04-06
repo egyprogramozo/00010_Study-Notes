@@ -1,4 +1,4 @@
-# AI Mindenkinek (AI For Everyone)
+# AI Mindenkinek (AI For Everyone) - fogalomtár
 
 Az AI For Everyone (Coursera) kurzus tananyaga alapján készült ez a fogalomtár, amit azért állítottam össze, hogy könnyebbé tegye a tanulást és az ismétlést.
 
